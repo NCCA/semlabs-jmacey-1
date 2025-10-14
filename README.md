@@ -17,4 +17,5 @@ To add we use the git add function
 git add .gitignore
 git status
 git commit -am "added a git ignore file"
+git push origin main
 ```
