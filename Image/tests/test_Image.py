@@ -12,7 +12,7 @@ def test_image_default():
     img = Image()
     assert img.width == 0
     assert img.height == 0
-    assert not "start here"
+    assert not "start here "
 
 
 def test_default_rgba():
