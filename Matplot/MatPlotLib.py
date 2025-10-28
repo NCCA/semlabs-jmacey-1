@@ -39,7 +39,7 @@ def _():
 @app.cell
 def _(plt, x, y):
     cm = 1 / 2.54
-    figsize = (5 * cm, 5 * cm)
+    figsize = (15 * cm, 5 * cm)
     plt.figure(figsize=figsize)
     plt.plot(x, y)
     plt.show()
